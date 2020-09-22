@@ -9,7 +9,7 @@ namespace Visuals
     public class MainWindowVM : INotifyPropertyChanged
     {
         private readonly DelegateCommand _cancelCommand;
-        private readonly ICommand _saveShapeCommand;
+        private readonly DelegateCommand _saveShapeCommand;
         private readonly IShapeSaver _shapeSaver;
 
         public ICommand CancelCommand => _cancelCommand;
