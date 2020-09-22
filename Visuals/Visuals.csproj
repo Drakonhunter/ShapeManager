@@ -52,9 +52,6 @@
     <Compile Include="ShapeVM.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{5C2FD1B6-7FE8-4CC1-9F4D-BEB1586A07BE}</Project>
       <Name>Models</Name>
@@ -63,6 +60,9 @@
       <Project>{B0940339-5471-4263-AD4F-9E627BE69440}</Project>
       <Name>Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
